@@ -13,7 +13,7 @@ if (isNaN(numberOfCups) || numberOfCups <=0) {
   const waterPerCup = 200; // in ml
   const milkPerCup = 50;   // in ml
   const teaLeavesPerCup = 1; // in tablespoons
-  const sugarPerCup = 2;     // in teaspoonsp
+  const sugarPerCup = 2;     // in teaspoons
 
  const totalWater = waterPerCup * numberOfCups;
   const totalMilk = milkPerCup * numberOfCups;
@@ -44,18 +44,20 @@ calculateChaiIngredients();
 Challenge 2: Boda Boda Ride Fare Estimator 🛵
 
 
-function calculateBodaFare(distanceInKm) {
+function calculateBodaFare() {
 const input = prompt('Unafika wapi Mkubwa? Kilometer ngapi?');
- distanceinkilometers = parseInt(input);
-if(isNaN(distanceinkilometers) || distanceinkilometers >0) {
-    calculateBodaFare(distanceinkilometers); 
+const distanceinkilometers = parseInt(input);
+if(isNaN(distanceInkilometers) || distanceInkilometers <=0) {
+    alert ("Please enter a valid number greater than 0");
+    
 }
 
 const baseFare = 50; 
 const chargePerKm = 15;
-const totalFare = baseFare + (distanceInKm * chargePerKm);
+const fareDistance = distanceInKm * chargePerKm;
+const totalFare = baseFare + fareDistance;
 
-console.log('For a ${distnceInKm} km Boda Boda ride:');
+console.log(`For a ${distnceInKm} km Boda Boda ride:`);
 console.log('- Base Fare: KES ${baseFare');
 console.log('- Distance Fare: KES ${fareDistance} (KES 15 * ${distanceInKm} km)');
 console.log('=> Total Estimated Fare: KES ${totalFare}');
