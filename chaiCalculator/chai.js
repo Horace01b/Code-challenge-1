@@ -10,7 +10,7 @@ if (isNaN(numberOfCups) || numberOfCups <=0) {
   const waterPerCup = 200; // in ml
   const milkPerCup = 50;   // in ml
   const teaLeavesPerCup = 1; // in tablespoons
-  const sugarPerCup = 2;     // in teaspoonsp
+  const sugarPerCup = 2;     // in teaspoons
 
  const totalWater = waterPerCup * numberOfCups;
   const totalMilk = milkPerCup * numberOfCups;
