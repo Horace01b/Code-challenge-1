@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/7a469226-81cb-496d-8c3b-ad154995f8ca)
 
+--TITLE
 # Chai Bora Ingredient Calculator 
 
 This is a simple JavaScript function that calculates the ingredients needed to prepare a given number of cups of Kenyan chai. The challenge simulates a real-world use case of scaling a recipe and practicing basic JavaScript input/output, arithmetic, and console logging.
@@ -38,7 +38,7 @@ How many cups of chai would you like to make? → 3
 - Sukari (Sugar): 6 teaspoons
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+--TITLE
 # Boda Boda Fare Estimator 
 
 This is a JavaScript program that estimates the total cost of a Boda Boda ride based on the distance in kilometers provided by the user. It's a simple but practical challenge that demonstrates user input handling, arithmetic calculations, conditional logic, and console/alert output.
@@ -67,7 +67,7 @@ Output:
 - Distance Fare: KES 75 (KES 15 * 5 km)
 => Total Estimated Fare: KES 125
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+--TITLE
 # Mobile Money Transaction Estimator 
 
 This challenge simulates a mobile money (M-Pesa-style) transaction experience using JavaScript. It calculates transaction fees based on user input, confirms before sending, and tracks a history of all transactions made during a session. The project mimics key features of real mobile money platforms in a simple, browser-based environment.
